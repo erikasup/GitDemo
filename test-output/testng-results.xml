@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11604" started-at="2021-12-03T18:53:26 EET" finished-at="2021-12-03T18:53:37 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11604" started-at="2021-12-03T18:53:26 EET" finished-at="2021-12-03T18:53:37 EET">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@18dad04]" name="initialize" is-config="true" duration-ms="3118" started-at="2021-12-03T18:53:26 EET" finished-at="2021-12-03T18:53:29 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@18dad04]" name="basePageNavigation" duration-ms="5445" started-at="2021-12-03T18:53:29 EET" data-provider="getData" finished-at="2021-12-03T18:53:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmasssil.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23214524]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Random user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@18dad04]" name="basePageNavigation" duration-ms="2824" started-at="2021-12-03T18:53:34 EET" data-provider="getData" finished-at="2021-12-03T18:53:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[randomuse@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kazkoks useris]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@18dad04]" name="teardown" is-config="true" duration-ms="167" started-at="2021-12-03T18:53:37 EET" finished-at="2021-12-03T18:53:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
